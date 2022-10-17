@@ -15,3 +15,20 @@ let edad = 23
 let mensaje = `Mi nombre es ${nombre} y tengo ${edad} años.`
 
 console.log(mensaje) // 'Mi nombre es Andres y tengo 23 años.'
+
+// Antes de ES6, la forma de crear una plantilla multilínea era agregar \n al string.
+
+var mensaje = "Línea 1 \n" + "línea 2"
+
+console.log(mensaje)
+// 'Línea 1
+// línea 2'
+
+// Con ES6 solamente necesitas utilizar las plantillas literales.
+
+const mensaje = `Línea 1
+línea 2`
+
+console.log(mensaje)
+// 'Línea 1
+// línea 2'
