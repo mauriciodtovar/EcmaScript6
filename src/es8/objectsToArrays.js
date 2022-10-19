@@ -19,23 +19,23 @@ Object.entries(usuario)
 // Obtener las propiedades de un objeto en un array
 // Object.keys() devuelve un array con las propiedades (keys) del objeto enviado como argumento.
 
-const usuario = {
+const usuario2 = {
     name: "Andres",
     email: "andres@correo.com",
     age: 23
 }
 
-Object.keys(usuario) 
+Object.keys(usuario2) 
 // [ 'name', 'email', 'age' ]
 
 // Obtener los valores de un objeto en un array
 // Object.values() devuelve un array con los valores de cada propiedad del objeto enviado como argumento.
 
-const usuario = {
+const usuario3 = {
     name: 'Andres',
     email: "andres@correo.com",
     age: 23
 }
 
-Object.values(usuario) 
+Object.values(usuario3) 
 // [ 'Andres', 'andres@correo.com', 23 ]
