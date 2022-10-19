@@ -11,22 +11,23 @@
 // Si el generador se lo invoca y ha retornado todos sus valores de yield, entonces devolverá el objeto con las propiedades value con undefined y un done con true.
 
 // Declaración
-function* nombre(parámetros){
-    yield (primer valor retornado)
-    yield (segundo valor retornado)
-    ...
-    yield (último valor retornado)
 
-}
+//  function* nombre(parámetros){
+//      yield (primer valor retornado)
+//      yield (segundo valor retornado)
+//      ...
+//      yield (último valor retornado)
+//  }
 
-//Crear el generador
-const generador = nombre(argumentos)
+// Crear el generador
+
+//  const generador = nombre(argumentos)
 
 // Invocacioens
-generador.next().value //primer valor retornado
-generador.next().value //segundo valor retornado
-...
-generador.next().value //último valor retornado
+//  generador.next().value //primer valor retornado
+//  generador.next().value //segundo valor retornado
+//  ...
+//  generador.next().value //último valor retornado
 
 // Por ejemplo, creemos un generador para retornar tres valores.
 
